@@ -2,14 +2,14 @@
 
 Website to have an overview of all pokemons incl. a search function for pokemons
 
-## Life Homepage
+## Live Homepage
 
 https://amazing-elion-9608ea.netlify.app/
 
 ## Usage
 
-- By default: 20 Pokemons per side, via Pagination possible to the next sides
-- Search Bar: Search name of a pokemon or just some letters of a pokemonname out of 600 pokemons
+- By default: 20 Pokemons per side, via Pagination possible to go to the next sides
+- Search Bar: Search a name of a pokemon or just some letters of a pokemonname out of 600 pokemons
 - Left side: Overview of all 600 pokemons (just accessible on large screens)
 
 ## Contributing
