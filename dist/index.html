@@ -1,0 +1,95 @@
+﻿<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <title>Pokedex - Alle Pokenons auf einem Blick</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Finde dein Lieblingspokemon hier und erkunde dich über all seine Eigenschaften">
+    <link rel="stylesheet" type="text/css" href="/stylesheet.7d9183d1.css">
+    <link rel="stylesheet" href="/bootstrap.min.c9ac70f5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+<script src="/stylesheet.7d9183d1.js"></script><script src="/bootstrap.min.c9ac70f5.js"></script></head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="col-2 d-none d-md-block align-self-center">
+                    <div class="">
+                        <img class="img-fluid" src="/pokeball.9dc45770.png" alt="Image of a pokeball">
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="header_pokedex container">
+                        <h1>Pokedex</h1>
+                        <h5>All your pokemons on one side!</h5>
+                        <div>
+                            <input class="form-control form-control-lg" type="search" id="inputPokemonSearch" name="search" placeholder="Search your favorite Pokemon...">
+                            <button id="btnSeachPokemon" class="btn btn-outline-dark btn-lg">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-none d-md-block">
+                    
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-2 d-none d-lg-block">
+                <div class="margin-space">
+                    <div class="container pokemonliste">
+                        <h3>Pokemons</h3>
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="container pokemoncard">
+
+                </div>
+                <nav class="pokemonPagintion" aria-label="Page navigation">
+                    <ul class="pagination pagination-lg justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" id="pagination-item-prev" aria-label="Previous" tabindex="-1" disabled="">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" id="pagination-item-one">1</a></li>
+                        <li class="page-item"><a class="page-link" id="pagination-item-two">2</a></li>
+                        <li class="page-item"><a class="page-link" id="pagination-item-three">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" id="pagination-item-next" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="pokemoncardFullWrapper">
+                    <div class="pokemoncardFull align-items-center">
+                        <div class="pokemoncardFullText container">
+                            <h1 id="pokemoncardFullName">Test</h1>
+                            <h5 id="pokemoncardFullNumbers">Bla</h5>
+                            <p id="pokemoncardFullType"> Type: </p>
+                            <p id="pokemoncardEffects">Effects:</p>
+                            <p id="pokemoncardFullKampf">Fightskills:</p>
+                            <p id="pokemoncardFullHeight">Height:</p>
+                            <p id="pokemoncardFullWeight">Weight:</p>
+                        </div>
+                        <div class="container justify-content-center">
+                            <img id="pokemoncardFullImg" class="img-fluid">
+                        </div>
+                        <span class="close">&times;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 d-none d-lg-block">
+                
+            </div>
+        </div>
+        <script src="/src.e31bb0bc.js"></script>
+        <script src="/jquery.slim.min.46468b0e.js"></script>
+        <script src="/popper.min.554c490c.js"></script>
+        <script src="/bootstrap.min.1ff4d686.js"></script>
+    </body>
+</html>
