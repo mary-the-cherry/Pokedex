@@ -2,24 +2,23 @@
 
 Website to have an overview of all pokemons incl. a search function for pokemons
 
-## Live Homepage
+## Purpose
 
-https://amazing-elion-9608ea.netlify.app/
+Project to learn JS:
+
+- Fetch data from a API 
+- Pagination
+- Creating a search bar of the items of the page
+- Pop-up window for a choosen item with further infos
+- Already opened items are marked in red 
 
 ## Usage
 
 - By default: 20 Pokemons per side, via Pagination possible to go to the next sides
 - Search Bar: Search a name of a pokemon or just some letters of a pokemonname out of 600 pokemons
 - Left side: Overview of all 600 pokemons (just accessible on large screens)
+- Get por infos about a pokemon via a click on it
 
-## Contributing
+## Online version
 
-For changes, please open an issue first to discuss what you would like to change.
-
-## Version 
-
-Initial version 1.0
-
-## Author
-
-Maren Meyer
+https://amazing-elion-9608ea.netlify.app/
