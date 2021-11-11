@@ -29,7 +29,7 @@ strong {
 }
 
 .header_pokedex h1 {
-  padding: 1vw;
+  padding: 1vw 0;
   font-size: 5em;
 }
 
@@ -148,15 +148,15 @@ strong {
   margin: 0 auto;
   overflow: auto;
   -webkit-animation-name: zoom;
-  animation-name: zoom;
+          animation-name: zoom;
   -webkit-animation-duration: 0.6s;
-  animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 #pokemoncardFullImg {
   height: auto;
   width: 350px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 @-webkit-keyframes zoom {
@@ -201,7 +201,7 @@ strong {
 .pokemoncardFull h1,
 h5 {
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
 }
 
 .close {
@@ -245,5 +245,6 @@ h5 {
 .disabled {
   cursor: auto;
 }
+
 
 /*# sourceMappingURL=/stylesheet.7d9183d1.css.map */

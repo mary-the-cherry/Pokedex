@@ -29,7 +29,7 @@ strong {
 }
 
 .header_pokedex h1 {
-  padding: 1vw;
+  padding: 1vw 0;
   font-size: 5em;
 }
 
@@ -146,7 +146,7 @@ strong {
 #pokemoncardFullImg {
   height: auto;
   width: 350px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 @keyframes zoom {
@@ -181,7 +181,7 @@ strong {
 .pokemoncardFull h1,
 h5 {
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
 }
 
 .close {
